@@ -1,0 +1,73 @@
+body
+{
+    background-color: black;
+}
+.heading
+{
+    font-family: sofia-pro, sans-serif;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    -webkit-text-stroke: 1.5px white;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 80px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in forwards;
+    transition: transform .6s;
+    
+}
+.heading:hover
+{
+    transform: scale(1.1);   
+}
+.shopimage
+{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in forwards;
+    transition: transform .6s;
+}
+.shopimage:hover
+{
+    transform: scale(1.1);
+}
+.content1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-left: 5%;
+    font-size: 100%;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in forwards;
+   
+
+}
+
+.content2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-left: 5%;
+    font-size: 100%;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in forwards;
+    
+
+}
+.hello
+{
+    font-family: sofia-pro, sans-serif;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
